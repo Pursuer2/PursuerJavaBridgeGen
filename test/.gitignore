@@ -1,0 +1,8 @@
+/__pycache__
+/.ipynb_checkpoints
+/jbridge_stub.dll
+/jbridge_stub.so
+/jbridge_stub.c
+/jbridge_decl.h
+/jni.h
+/jni_md.h
