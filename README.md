@@ -1,6 +1,6 @@
 # PursuerJavaBridgeGen 
 
-This is a code generator to generate C jni glue code according to the java files.
+This is a code generator to generate C jni glue code according to the java files.(also support android.)
 
 ## How to test and use
 
@@ -9,6 +9,7 @@ This is a code generator to generate C jni glue code according to the java files
 
 2. run test by
 `python test.py`
+(jni.h,jni_md.h is not included in this project, So if jni.h is not found, please specify the C_INCLUDE_PATH to your jdk include path)
 
 3.  see "test.py" , "test/jbridge_test.c" , "test/jbridge/JbridgeStubJ.java"  for usage.
 
